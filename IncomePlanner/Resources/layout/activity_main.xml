@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="67.0dp"
+        android:layout_marginTop="50px"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="@string/pph_label"
+            android:layout_width="190px"
+            android:layout_height="27.0dp"
+            android:id="@+id/textView1" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="286.0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22px"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/textInputEditText1" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="67.0dp"
+        android:layout_marginTop="50px"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="@string/whpd_label"
+            android:layout_width="161.5dp"
+            android:layout_height="27.0dp"
+            android:id="@+id/textView2" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="286.0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22px"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/textInputEditText2" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="67.0dp"
+        android:layout_marginTop="50px"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="@string/tr_label"
+            android:layout_width="161.5dp"
+            android:layout_height="27.0dp"
+            android:id="@+id/textView3" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="286.0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22px"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/textInputEditText3" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="67.0dp"
+        android:layout_marginTop="50px"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="@string/sr_label"
+            android:layout_width="161.5dp"
+            android:layout_height="27.0dp"
+            android:id="@+id/textView4" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="286.0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22px"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/textInputEditText4" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="39.0dp"
+        android:layout_marginTop="30px"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <Button
+            android:text="@string/btncal_label"
+            android:layout_width="280.0dp"
+            android:layout_height="59.0dp"
+            android:minWidth="50px"
+            android:minHeight="25px"
+            android:id="@+id/button1" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="271.5dp"
+        android:layout_height="16.0dp"
+        android:layout_marginTop="15px"
+        android:orientation="horizontal"
+        android:gravity="left">
+        <TextView
+            android:text="@string/aws_label"
+            android:layout_width="184.5dp"
+            android:layout_height="27.0dp"
+            android:id="@+id/annual_work_summary" />
+        <TextView
+            android:text="@string/aws_TOTAL"
+            android:layout_width="103.5dp"
+            android:layout_height="27.0dp"
+            android:textAlignment="textEnd"
+            android:layout_marginLeft="300px"
+            android:id="@+id/aws_TOTAL" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="271.5dp"
+        android:layout_height="15.5dp"
+        android:layout_marginTop="1px"
+        android:orientation="horizontal"
+        android:gravity="left">
+        <TextView
+            android:text="@string/agi_label"
+            android:layout_width="184.5dp"
+            android:layout_height="27.0dp"
+            android:id="@+id/annual_gross_income" />
+        <TextView
+            android:text="@string/agi_TOTAL"
+            android:layout_width="103.5dp"
+            android:layout_height="27.0dp"
+            android:textAlignment="textEnd"
+            android:layout_marginLeft="300px"
+            android:id="@+id/agi_TOTAL" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="271.5dp"
+        android:layout_height="18.5dp"
+        android:layout_marginTop="1px"
+        android:orientation="horizontal"
+        android:gravity="left">
+        <TextView
+            android:text="@string/atp_label"
+            android:layout_width="184.5dp"
+            android:layout_height="27.0dp"
+            android:id="@+id/annual_tax_payable" />
+        <TextView
+            android:text="@string/atp_TOTAL"
+            android:layout_width="103.5dp"
+            android:layout_height="27.0dp"
+            android:textAlignment="textEnd"
+            android:layout_marginLeft="300px"
+            android:id="@+id/atp_TOTAL" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="271.5dp"
+        android:layout_height="19.0dp"
+        android:layout_marginTop="1px"
+        android:orientation="horizontal"
+        android:gravity="left">
+        <TextView
+            android:text="@string/as_label"
+            android:layout_width="184.5dp"
+            android:layout_height="27.0dp"
+            android:id="@+id/annual_savings" />
+        <TextView
+            android:text="@string/as_TOTAL"
+            android:layout_width="103.5dp"
+            android:layout_height="27.0dp"
+            android:textAlignment="textEnd"
+            android:layout_marginLeft="300px"
+            android:id="@+id/as_TOTAL" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="271.5dp"
+        android:layout_height="19.0dp"
+        android:layout_marginTop="10px"
+        android:orientation="horizontal"
+        android:gravity="left">
+        <TextView
+            android:text="@string/SI_label"
+            android:layout_width="184.5dp"
+            android:layout_height="27.0dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:id="@+id/spendable_income" />
+        <TextView
+            android:text="@string/SI_TOTAL"
+            android:layout_width="103.5dp"
+            android:layout_height="27.0dp"
+            android:layout_marginLeft="300px"
+            android:textAlignment="textEnd"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:id="@+id/SI_TOTAL" />
+    </RelativeLayout>
+</LinearLayout>
